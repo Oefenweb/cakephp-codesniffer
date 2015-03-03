@@ -1,0 +1,25 @@
+{
+	"name": "oefenweb/cakephp-codesniffer",
+	"description": "Oefenweb Code Sniffer for CakePHP",
+	"type": "library",
+	"keywords": [
+		"framework", "codesniffer"
+	],
+	"homepage": "http://github.com/Oefenweb/cakephp-codesniffer",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Oefenweb.nl BV team",
+			"homepage": "https://github.com/Oefenweb/cakephp-codesniffer/contributors"
+		}
+	],
+	"require": {
+		"php": ">=5.3.10",
+		"composer/installers": "~1.0",
+		"cakephp/cakephp-codesniffer": "1.*"
+	},
+	"support": {
+		"issues": "https://github.com/Oefenweb/cakephp-codesniffer/issues",
+		"source": "https://github.com/Oefenweb/cakephp-codesniffer"
+	}
+}
