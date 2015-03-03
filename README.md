@@ -39,5 +39,5 @@ When these sniffs are installed with `composer`, ensure that you have configured
 Once `installed_paths` is configured, you can run phpcs using:
 
 ```sh
-vendor/bin/phpcs --standard=Oefenweb --extensions=ctp,php --ignore=app/Vendor --ignore=app/Plugin;
+vendor/bin/phpcs . --standard=Oefenweb --extensions=ctp,php --ignore=app/Vendor --ignore=app/Plugin;
 ```
