@@ -30,13 +30,11 @@ composer global update oefenweb/cakephp-codesniffer;
 	installed_paths "${HOME}/.composer/vendor/cakephp/cakephp-codesniffer,${HOME}/.composer/vendor/oefenweb/cakephp-codesniffer";
 ```
 
-The second command lets `phpcs` know where to find your new sniffs. Ensure that
-you do not overwrite any existing `installed_paths` value.
+This lets `phpcs` know where to find your new sniffs. Ensure that you do not overwrite any existing `installed_paths` value.
 
 ## Usage
 
-When these sniffs are installed with `composer`, ensure that you have
-configured the CodeSniffer `installed_paths` setting.
+When these sniffs are installed with `composer`, ensure that you have configured the CodeSniffer `installed_paths` setting.
 
 Once `installed_paths` is configured, you can run phpcs using:
 
