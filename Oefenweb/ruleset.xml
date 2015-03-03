@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="Oefenweb">
+	<description>Oefenweb Code Sniffer for CakePHP</description>
+	<rule ref="../../../cakephp/cakephp-codesniffer/CakePHP">
+		<exclude name="Generic.Commenting.Todo"/>
+	</rule>
+</ruleset>
