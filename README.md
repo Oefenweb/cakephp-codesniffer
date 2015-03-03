@@ -41,5 +41,5 @@ configured the CodeSniffer `installed_paths` setting.
 Once `installed_paths` is configured, you can run phpcs using:
 
 ```sh
-vendor/bin/phpcs --standard=Oefenweb;
+vendor/bin/phpcs --standard=Oefenweb --extensions=ctp,php --ignore=app/Vendor --ignore=app/Plugin;
 ```
