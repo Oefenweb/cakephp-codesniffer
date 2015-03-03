@@ -8,7 +8,6 @@ It's generally recommended to install these code sniffs with `composer`:
 
 ```sh
 composer global require --dev 'cakephp/cakephp-codesniffer=1.*';
-~/.composer/vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/cakephp/cakephp-codesniffer;
 ```
 
 Modify `~/.composer/composer.json`.
@@ -27,7 +26,8 @@ Modify `~/.composer/composer.json`.
 
 ```sh
 composer global update oefenweb/cakephp-codesniffer;
-~/.composer/vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/oefenweb/cakephp-codesniffer;
+~/.composer/vendor/bin/phpcs --config-set \
+	installed_paths "${HOME}/.composer/vendor/cakephp/cakephp-codesniffer,${HOME}/.composer/vendor/oefenweb/cakephp-codesniffer";
 ```
 
 The second command lets `phpcs` know where to find your new sniffs. Ensure that
