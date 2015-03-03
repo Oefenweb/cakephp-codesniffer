@@ -14,7 +14,7 @@ Modify `~/.composer/composer.json`.
 
 ```json
 "require-dev": {
-	"oefenweb/cakephp-codesniffer": "*"
+	"oefenweb/cakephp-codesniffer": "dev-master"
 },
 "repositories": [
 	{
