@@ -11,6 +11,8 @@ composer global require --dev 'cakephp/cakephp-codesniffer=1.*';
 ~/.composer/vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/cakephp/cakephp-codesniffer;
 ```
 
+Modify `~/.composer/composer.json`.
+
 ```json
 "require-dev": {
 	"oefenweb/cakephp-codesniffer": "*"
