@@ -15,7 +15,7 @@
 	],
 	"require": {
 		"php": ">=5.3.10",
-		"cakephp/cakephp-codesniffer": "1.*"
+		"cakephp/cakephp-codesniffer": "2.*"
 	},
 	"support": {
 		"issues": "https://github.com/Oefenweb/cakephp-codesniffer/issues",
