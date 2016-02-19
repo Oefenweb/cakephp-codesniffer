@@ -7,7 +7,7 @@ This code works with [phpcs](https://github.com/squizlabs/PHP_CodeSniffer) and c
 It's generally recommended to install these code sniffs with `composer`:
 
 ```sh
-composer global require --dev 'cakephp/cakephp-codesniffer=1.*';
+composer global require --dev 'cakephp/cakephp-codesniffer=2.*';
 ```
 
 Modify `~/.composer/composer.json`.
