@@ -21,5 +21,5 @@ This lets `phpcs` know where to find your new sniffs. Ensure that you do not ove
 ## Usage
 
 ```sh
-vendor/bin/phpcs --standard=CakePHP3Oefenweb ~/foo/bar/index.php;
+vendor/bin/phpcs --standard=CakePHPOefenweb ~/foo/bar/index.php;
 ```
