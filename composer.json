@@ -1,6 +1,6 @@
 {
 	"name": "oefenweb/cakephp-codesniffer",
-	"description": "Oefenweb Code Sniffer for CakePHP",
+	"description": "Oefenweb Code Sniffer for CakePHP 2",
 	"type": "library",
 	"keywords": [
 		"framework", "codesniffer"
@@ -15,7 +15,7 @@
 	],
 	"require": {
 		"php": ">=5.3.10",
-		"cakephp/cakephp-codesniffer": "1.*"
+		"cakephp/cakephp-codesniffer": "^1.0.0"
 	},
 	"support": {
 		"issues": "https://github.com/Oefenweb/cakephp-codesniffer/issues",
