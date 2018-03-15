@@ -1,4 +1,4 @@
-# Oefenweb Code Sniffer for CakePHP 2
+# Oefenweb Code Sniffer for CakePHP 3
 
 This code works with [phpcs](https://github.com/squizlabs/PHP_CodeSniffer) and checks code against the coding standards used at Oefenweb.
 
@@ -7,7 +7,7 @@ This code works with [phpcs](https://github.com/squizlabs/PHP_CodeSniffer) and c
 It's generally recommended to install these code sniffs with `composer`:
 
 ```sh
-mkdir CakePHPOefenweb && cd $_ && composer require oefenweb/cakephp-codesniffer=^2.0.0;
+mkdir CakePHP3Oefenweb && cd $_ && composer require oefenweb/cakephp-codesniffer=^3.0.0;
 ```
 
 ```sh
