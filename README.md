@@ -12,7 +12,7 @@ mkdir CakePHP3Oefenweb && cd $_ && composer require oefenweb/cakephp-codesniffer
 
 ```sh
 vendor/bin/phpcs \
-  --config-set installed_paths "${PWD}/vendor/cakephp/cakephp-codesniffer,${PWD}/vendor/oefenweb/cakephp-codesniffer" \
+  --config-set installed_paths "${PWD}/vendor/cakephp/cakephp-codesniffer,${PWD}/vendor/oefenweb/cakephp-codesniffer,${PWD}/vendor/phpcompatibility/php-compatibility" \
 ;
 ```
 
