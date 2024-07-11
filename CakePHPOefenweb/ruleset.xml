@@ -4,4 +4,9 @@
 	<rule ref="../../../cakephp/cakephp-codesniffer/CakePHP">
 		<exclude name="Generic.Commenting.Todo"/>
 	</rule>
+	<rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="absoluteLineLimit" value="120"/>
+		</properties>
+	</rule>
 </ruleset>
